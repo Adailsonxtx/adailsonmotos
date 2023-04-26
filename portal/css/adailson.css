@@ -1,0 +1,126 @@
+
+body {
+	background-color: #F4A460;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #FFFFFF;
+	color: #00000B;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #00000B;
+	text-decoration: none;
+}
+
+
+#banner {
+	background-image: url('https://www.hondaservicosfinanceiros.com.br/blog/sites/blog/files/styles/post_highlight/public/2021-07/linha_CG_2022.jpg?h=6be45972&itok=ODzqKHUA.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #00000b;
+	padding: 300px 20px;
+	text-align: center;
+
+}
+h2 {
+	text-align: center;
+
+} 
+
+
+#banner h2 {
+	margin-top: 0;
+}
+
+.button {
+	background-color: #333;
+	color: #F4A460;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #666;
+}
+
+
+#moto-list {
+	background-color: #F4A460;
+	padding: 20px;
+}
+
+#moto-list h2 {
+	margin-top: 0;
+}
+
+#moto-list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#moto-list li {
+	background-color: #f1f1f1;
+	margin: 20px;
+	flex: 1 1 300px;
+}
+
+#moto-list li img {
+	width: 100%;
+	height: auto;
+}
+
+#moto-list li h3 {
+	margin: 10px;
+}
+
+#moto-list li p {
+	margin: 10px;
+}
+
+#moto-list li .button {
+	background-color: #333;
+	color: #fff;
+	display: block;
+	margin: 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+#moto-list li .button:hover {
+	background-color: #666;
+}
+
+.logo_adailson{
+	
+	width: 250px;
+
+}
